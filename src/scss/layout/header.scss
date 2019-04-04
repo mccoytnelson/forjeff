@@ -1,0 +1,56 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: $primary-color;
+  color: black;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 0 rgba(12, 13, 14, 0.1), 0 2px 6px rgba(59, 64, 69, 0.1);
+  height: 85px;
+
+  .logo {
+    height: 50px;
+    width: auto;
+    padding: 7px 0 7px 0;
+  
+
+    @media (min-width: 768px) {
+      height: 75px;
+      width: auto;
+      padding: 15px 0 15px 0;
+    }
+  }
+
+  .title {
+    font-size: 13px;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+      font-size: 26px;
+      padding: 20px;
+    }
+  }
+
+  .subtitle {
+    display: block;
+    padding: 5px 0 0 70px;
+    font-size: 9px;
+
+    @media (min-width: 768px){
+      display: block;
+      padding: 10px 0 0 135px;
+      font-size: 19px;
+    }
+  }
+
+  .auth {
+    margin-left: auto;
+    padding: 1px;
+
+    @media (min-width: 768px) {
+      margin-left: auto;
+      padding: 5px;
+    }
+  }
+}

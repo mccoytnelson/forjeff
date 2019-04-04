@@ -1,0 +1,31 @@
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  .arrowRight {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .arrowLeft {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+}
+
+
+.sidebarButton{
+  color: darkred;
+  border-top: yellow 10px solid;
+  border-right: red 10px solid;
+  border-left: purple 10px solid;
+  border-bottom: blue 10px solid;
+  background: rgb(240, 179, 184);
+  position: relative;
+  right: -5px;
+  top:-70px;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+

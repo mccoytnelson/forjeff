@@ -1,0 +1,30 @@
+.mainpageContainer {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.devicons {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 400px;
+  padding: 30px;
+
+  @media (min-width: 768px) {
+      display: flex;
+      margin: auto;
+      flex-wrap: wrap;
+      width: 1200px;
+      padding: 60px;
+  }
+      
+  a {
+      width: 150px;
+      padding: 10px;
+
+      @media (min-width: 768px) {
+          width: 300px;
+          padding: 20px;
+      }
+  }
+}
